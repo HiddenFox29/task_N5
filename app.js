@@ -4,16 +4,16 @@ let numberWin = 29;
 // вход через пароль
 let answer = prompt('Введите пароль');
 if (pswd === answer) {
-    document.write('secret content')
+    document.write('secret content');
 } else {
-    alert('Увы')
+    alert('Увы');
 };
 
 // игра
 let answerNumber = Number(prompt('Введите число'));
 
 if (numberWin === answerNumber) {
-    alert("win")
+    alert("win");
 };
 
 if (numberWin < answerNumber){
